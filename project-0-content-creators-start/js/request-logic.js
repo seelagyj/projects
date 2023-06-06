@@ -5,4 +5,5 @@
 
 function getContentType(filename) {
   const extension = filename.match(/.*\.([^\.]*)$/)[1];
+  return this.extension;
 }
