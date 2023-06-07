@@ -132,6 +132,6 @@ function setComputerMoves() {
     playerTwoMoveTwoType = translateNumberToMove(computerMoveTwo);
     playerTwoMoveThreeType = translateNumberToMove(computerMoveThree);
     playerTwoMoveOneValue = Math.floor(Math.random()*97 + 1);
-    playerTwoMoveTwoValue = Math.floor(Math.random()*(playerTwoMoveOneValue) + 1);
+    playerTwoMoveTwoValue = Math.floor(Math.random()*(98-playerTwoMoveOneValue) + 1);
     playerTwoMoveThreeValue = 99 - (playerTwoMoveOneValue + playerTwoMoveTwoValue);
     }
